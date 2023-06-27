@@ -1,0 +1,22 @@
+
+.imageAnimation{
+animation: superMan 2s  infinite alternate forwards;
+color: blue;
+}
+
+@keyframes superMan {
+    0%{
+        transform:  translateY(-30px);
+
+    }100%{
+        transform:  translateY(30px);
+    }
+}
+
+.backgroundImage{
+background-image: url("https://i.ibb.co/xfnQ5LT/ZEBSTER.jpg");
+background-position: center;
+background-size: cover;
+color: white;
+text-shadow: 1px 1px black;
+}

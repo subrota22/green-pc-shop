@@ -1,0 +1,50 @@
+/* google font family  */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Edu+SA+Beginner&family=Finlandica:ital,wght@1,600&family=Gentium+Book+Plus:ital,wght@0,700;1,700&family=Lato:wght@700&family=Open+Sans:ital,wght@0,300;1,400&family=PT+Serif:ital@1&family=Poppins:wght@300;500&family=Raleway:wght@200;400&family=Roboto&family=Roboto+Slab:wght@300;400&display=swap');
+/* tailwind css link  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body::-webkit-scrollbar{
+width: 12px;
+background-color: cornflowerblue;
+}
+body::-webkit-scrollbar-thumb{
+  background-color: blue;
+  border-radius: 12px ; 
+  }
+  
+body{
+  margin: 0;
+  font-family: 'Finlandica', sans-serif;
+  background-color: #131113;
+  color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.cardbackground {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  box-shadow:   0 0 4px 6px rgba(0, 255, 0, 0.4);
+}
+.cardbackground:hover{
+transition-duration: 2s;
+box-shadow:   0 0 4px 6px rgba(9, 31, 156, 0.4);
+background-color: rgb(19, 13, 18);
+}
+.userImage{
+  height:250px;
+  width: 250px;
+  border-radius: 50%;
+  margin: auto;
+  border: 3px solid blue;
+  
+}
